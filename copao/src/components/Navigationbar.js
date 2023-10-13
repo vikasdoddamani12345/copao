@@ -14,8 +14,8 @@ function Navigationbar() {
       <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
         <ul>
         <li><a href="/">Products</a></li>
-          <li><a href="/">Services</a></li>
-          <li><a href="/">About us</a></li>
+          <li><a href="/Services">Services</a></li>
+          <li><a href="/Aboutus">About us</a></li>
           <li><a href="/">Contact us</a></li>
           <li><a href="/">Our clients</a></li>
           <li><a href="/">Carrer</a></li>

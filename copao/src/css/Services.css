@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.service-container{
+    overflow: hidden;
+}
+.Service-1{
+    background-color: #000;
+    color: #FFf;
+    height: 700px;
+    margin-top: 80px;
+    text-align: center;
+}
+.Service-1 h1{
+    padding-top: 150px;
+    font-size: 106px;
+}
+.discription-1{
+    font-size: 36px;
+    width: 1390px;
+    padding-left: 600px;
+    padding-top: 90px;
+}
+.Service-2{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(550px,1fr);
+    
+    margin-top: 100px;
+    background-color: #000;
+    color: #FFF;
+}
+.Item-1{
+    width: 650px;
+}
+.pic1{
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    padding: 50px;
+    width: 950px;
+}
+.pic2{
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    padding: 50px;
+    width: 950px;
+    height: 650px;
+}
+.pic3{
+    border-top-left-radius: 150px;
+    border-bottom-Right-radius: 150px;
+    padding: 50px;
+    width: 950px;
+}
+.text-grp{
+    padding-top: 80px;
+}
+.text-1{
+    font-size: 76px;
+    text-align: center;
+}
+.text-2{
+    padding-top: 50px;
+    font-size: 26px;
+    width: 890px;
+    padding-left: 130px;
+}
+.learn-btn-1{
+    width: 350px;
+    height: 80px;
+    background-color: #FFFF;
+    color:rgb(32, 31, 31) ;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.learn-btn-1:hover{
+    background-color: #92def1;
+
+}
+.testinomial{
+    display: flex;
+    gap: 50px;
+    height: 550px;
+    background-color: #000;
+    color: #FFF;
+}
+.testinom-head{
+    width: 650px;
+    background-color: #fff;
+    border-radius: 90px;
+    color:rgb(108, 108, 221) ;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 90px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.Review{
+    padding-top: 50px;
+}
+.testonimal-1{
+    font-size: 36px;
+}
+.client{
+    display: flex;
+    gap: 30px;
+    
+}
+.client h3{
+    font-size: 26px;
+    padding-top: 30px;
+}
+.Item-2{
+    background-color: #000;
+    color: #FFF;
+    height: 550px;
+    text-align: center;
+}
+.Item-2  h3{
+    font-size: 86px;
+    width: 950px;
+    margin-left:500px;
+    padding-top:50px ;
+}
+.Contact-btn-1{
+    width: 350px;
+    height: 80px;
+    background-color: #FFFF;
+    color:rgb(32, 31, 31) ;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.Contact-btn-1:hover{
+    background-color: #92def1;
+
+}
+.Item-text{
+    font-size: 35px;
+    width: 950px;
+    margin-left:500px ;
+    padding-top: 30px;
+}
+.Scroll-top{
+    display: flex;
+}
+.top-icon-2{
+    background-color: #FFFF;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 400px;
+}
