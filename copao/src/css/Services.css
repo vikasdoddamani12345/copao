@@ -160,3 +160,95 @@
     cursor: pointer;
     margin-left: 400px;
 }
+@media screen and (max-width:600px) {
+    .Service-2{
+        display: grid;
+        grid-template-columns: 550px;
+    }
+    .Service-1 h1{
+        width: 750px;
+        font-size:86px;
+        margin-left: -90px;
+    }
+    .discription-1{
+        margin: 0;
+        margin-top: 80px;
+        margin-left: 50px;
+        padding: 0px;
+        width: 450px;
+        font-size: 24px;
+    }
+    .Item-1{
+        width: 100%;
+    }
+    .pic1{
+        width: 100%;
+    }
+    .pic2{
+        width: 100%;
+    }
+    .pic3{
+        width: 100%;
+    }
+    .text-grp{
+        width: 100%;
+    }
+    .text-1{
+        width: 100%;
+    }
+    .text-2{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .learn-btn-1{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .testinomial{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 85vh;
+        padding: 20px;
+    }
+    .testinom-head{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 35px;
+    }
+    .Review{
+        width: 100%;
+    }
+    .testonimal-1{
+        width: 100%;
+        font-size: 25px;
+    }
+    .Item-2{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .Item-2 h3{
+        font-size: 50px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .Scroll-top{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .Item-text{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .top-icon-2{
+        margin: 0;
+    }
+
+    
+}
