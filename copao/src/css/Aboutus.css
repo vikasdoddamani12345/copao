@@ -91,18 +91,39 @@
     }
     .Heading-2{
         font-size: 50px;
-        width: 150px;
+        width: 450px;
         margin: 0;
         padding: 0;
+        padding-left: 30px;
     }
     .Heading-3{
         margin: 0;
         padding: 0;
-        width: 150px;
+        width: 450px;
+        padding-left: 30px;
     }
     .contact-btn-grp{
         width: 50%;
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
     }
+    .Heading-4{
+        font-size: 86px;
+    }
+    .Heading-1{
+        font-size: 76px;
+    }
+    .Btm-line{
+        padding: 0;
+        padding-top: 150px;
+    }
+    .top-icon{
+        margin: 0;
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+
     
 }
 
