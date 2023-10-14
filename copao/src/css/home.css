@@ -12,25 +12,39 @@
     width: 100%;
     height: 90vh;
     background-color:#d9d9d9;
+
    
 }
 
 .card1{
     width: 100%;
     height: 90vh;
-    /* display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+     */
+     margin-left: 15%;
+     display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .card11{
-    width: 100%;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 15px;
+}
+
+/* .card12{
+    width: 50%;
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-}
+} */
 
 .img1-home{
     border-radius: 30%;
@@ -39,52 +53,68 @@
 
 .module2-home{
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background-color: black;
-    padding: 10%;
+    /* padding: 10%; */
 }
+
 
 .item1-home{
     /* font-size: 40px; */
     /* padding: 5%; */
     color:white;
-    width: 40%;
-    height: 25vh;
-    font-size: 35px;
+    width: 60%;
+    height: 40vh;
+    font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-left: 5%; */
+    
+}
+
+.txt-home{
+    padding: 10%;
+   
 }
 
 .item2-home{
     /* margin-left: 40%; */
-    height: 35vh;
+    height: 40vh;
     text-align: center;
 
 }
 
 .img2-home{
-    width: 40%;
+    width: 60%;
     height: 100%;
-    border-radius: 25px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
 
 .item3-home{
     width: 100%;
-    height: 10vh;
+    height: 30vh;
     margin-left: 5%;
+    padding: 5%;
 }
 
 .btn-home{
-    width: 20%;
-    height: 55%;
+    width: 15%;
+    height: 50%;
     border-radius: 20px;
     font-size: 20px;
 }
 
 .module3-home{
     width: 100%;
-    height: 70vh;
+    height: 100%;
     background-color: black;
-    padding: 5%;
+    /* padding: 10%; */
+}
+
+
+.para-div1{
+    font-size: 60px;
+   
 }
 
 .service-div1{
@@ -94,5 +124,157 @@
     background-color: black;
     font-size: 50px;
     text-align: center;
+    
+}
+
+.Service-2{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(550px,1fr);
+    
+    margin-top: 100px;
+    background-color: #000;
+    color: #FFF;
+}
+.Item-1{
+    width: 650px;
+}
+.pic1{
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    padding: 50px;
+    width: 950px;
+}
+.pic2{
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    padding: 50px;
+    width: 950px;
+    height: 650px;
+}
+.pic3{
+    border-top-left-radius: 150px;
+    border-bottom-Right-radius: 150px;
+    padding: 50px;
+    width: 950px;
+}
+.text-grp{
+    padding-top: 80px;
+}
+.text-1{
+    font-size: 76px;
+    text-align: center;
+}
+.text-2{
+    padding-top: 50px;
+    font-size: 26px;
+    width: 890px;
+    padding-left: 130px;
+}
+.learn-btn-1{
+    width: 350px;
+    height: 80px;
+    background-color: #FFFF;
+    color:rgb(32, 31, 31) ;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.learn-btn-1:hover{
+    background-color: #92def1;
+
+}
+
+.module4-home{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-color: #000;
+}
+
+.div1-home{
+    width: 50%;
+    height: 100%;
+}
+
+.div2-home{
+    width: 50%;
+    height: 100%;
+    color: #FFF;
+    padding: 5%;
+}
+
+.para-home{
+    font-size: 30px;
+}
+
+.txt1-home{
+    font-size: 50px;
+}
+
+.module5-home{
+    width: 100%;
+    height: 30vh;
+    
+    background-color: #000;
+}
+
+.txt3-home{
+    width: 100%;
+    height: 10vh;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.txt4-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    color: #FFF;
+}
+
+.txt5-home{
+    font-size: 40px;
+    text-align: center;
+}
+
+.module6-home{
+    width: 100%;
+    height: 30vh;
+    
+    background-color: #000000d7;
+}
+
+.txt7-home{
+    padding: 3%;
+    font-size: 25px;
+    color: #FFF;
+    text-align: center;
+}
+
+.module7-home{
+    width: 100%;
+    height: 5vh;
+    background-color: #000;
+  
+}
+
+.txt9-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.para1-home{
+    border-right: 1px solid white;
     
 }

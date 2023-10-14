@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
-import '../../css/service.css'
+// import '../../css/service.css';
+import '../../css/Services.css';
 import Pic1 from '../../images/app-dev-1024x683.jpg'
 import Pic2 from '../../images/ui-ux-1024x683.jpg'
 import Pic3 from '../../images/8068473_63484-1-292x300.jpg'
