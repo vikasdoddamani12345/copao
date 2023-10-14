@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.About-title{
+    background-color: black;
+    color: #FFFF;
+    margin-top: 80px;
+    margin: auto;   
+    text-align: center;
+    padding: 25px;
+    letter-spacing: 5px;
+    font-family: Young Serif;
+}
+.About-title h1{
+    font-size: 56px;
+    letter-spacing: 25px;
+
+}
+.sub-title
+{
+    font-size: 26px;
+    line-height: 1.8;
+}
+.About-title-1{
+    background-color: black;
+    color: #FFFF;
+}
+.Heading-1{
+    font-family: Pacifico;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 25px;
+
+}
+.Heading-2{
+    font-size: 46px;
+    padding-top: 90px;
+    width: 100%;
+    padding-left: 250px;
+}
+.Heading-3{
+    font-size: 32px;
+    padding-left: 250px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-btn{
+    width: 350px;
+    height: 80px;
+    background-color: #FFFF;
+    color:rgb(32, 31, 31) ;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    background-color: #92def1;
+
+}
+.contact-btn-grp{
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.Heading-4{
+    text-align: center;
+    margin-top: 160px;
+    font-size: 32px;
+}
+.Btm-line{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left:550px;
+}
+.top-icon{
+    background-color: #FFFF;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 160px;
+    margin-left: 600px;
+}
+.pic{
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+@media screen and (max-width:600px) {
+    .About-title-1{
+        height: 100vh;
+    }
+    .Heading-2{
+        font-size: 50px;
+        width: 450px;
+        margin: 0;
+        padding: 0;
+        padding-left: 30px;
+    }
+    .Heading-3{
+        margin: 0;
+        padding: 0;
+        width: 450px;
+        padding-left: 30px;
+    }
+    .contact-btn-grp{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+    }
+    .Heading-4{
+        font-size: 86px;
+    }
+    .Heading-1{
+        font-size: 76px;
+    }
+    .Btm-line{
+        padding: 0;
+        padding-top: 150px;
+    }
+    .top-icon{
+        margin: 0;
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+
+    
+}
+
+
