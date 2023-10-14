@@ -48,15 +48,15 @@ function Services() {
 <div className='service-container'>
    <div className='Service-1'>
     <h1>Our Services</h1>
-    <p data-aos="fade-up" className='discription-1'>An overview of the services you offer and how they will benefit the visitor.</p>
+    <p data-aos="fade-up" className='discription-1'>Range of strategies and tactics designed to help online businesses promote their products or services, reach a broader audience, and increase sales, Here's a we provide platform  overview of common digital marketing services for e-commerce</p>
    </div>
    <div className='Service-2'>
     <div data-aos="fade-right" className='Item-1'>
         <img className='pic1' src={Pic1} alt='app-dev-1024x683.jpg'/>
         </div>
         <div className='text-grp'>
-        <p data-aos="fade-left" className='text-1'>Android and IOS app development</p>
-        <p data-aos="fade-up" className='text-2'>Get the first-rate android and IOS app development services. We help you transform your business idea into a reality.</p>
+        <p data-aos="fade-left" className='text-1'>Android and IOS app <br/> development</p>
+        <p data-aos="fade-up" className='text-2'>Get the first-rate android and IOS app development services. <br/>We help you transform your business idea into a reality.</p>
         <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
         </div>
         <div className='text-grp'>

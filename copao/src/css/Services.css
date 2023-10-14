@@ -153,7 +153,7 @@
 .Scroll-top{
     display: flex;
 }
-.top-icon-2{
+.top-icon-2 {
     background-color: #FFFF;
     color: black;
     border-radius: 25px;
@@ -248,7 +248,45 @@
     }
     .top-icon-2{
         margin: 0;
+    }  
+}
+@media screen and (max-width:1024px) and (min-width:800px) {
+    .discription-1{
+        padding: 40px;
+        width: 100%;
+        text-align: left;
     }
-
-    
+    .Service-2{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .testinomial{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .Review{
+        width: 100%;
+        padding: 50px;
+    }
+    .Item-2 h3{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .Scroll-top{
+        width: 100%;
+        padding-top: 35px;
+    }
+    .Item-text{
+        margin: 0;
+        padding: 0;    
+    }
+    .top-icon-2{
+        margin: 0;
+    }
 }
