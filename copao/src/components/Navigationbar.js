@@ -16,10 +16,10 @@ function Navigationbar() {
         <li><a href="/">Products</a></li>
           <li><a href="/">Services</a></li>
           <li><a href="/">About us</a></li>
-          <li><a href="/">Contact us</a></li>
+          <li><a href="/contact">Contact us</a></li>
           <li><a href="/">Our clients</a></li>
           <li><a href="/">Carrer</a></li>
-          <li><a href="/">Home</a></li>
+          <li><a href="/home">Home</a></li>
         </ul>
       </div>
       <div className={`hamburger ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>

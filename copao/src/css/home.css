@@ -1,0 +1,98 @@
+.main-div-home{
+    width: 100%;
+    height: max-content;
+}
+
+.container-home{
+    width: 100%;
+    height: 100%;
+}
+
+.module1-home{
+    width: 100%;
+    height: 90vh;
+    background-color:#d9d9d9;
+   
+}
+
+.card1{
+    width: 100%;
+    height: 90vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.card11{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.img1-home{
+    border-radius: 30%;
+    height: 70%;
+}
+
+.module2-home{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    padding: 10%;
+}
+
+.item1-home{
+    /* font-size: 40px; */
+    /* padding: 5%; */
+    color:white;
+    width: 40%;
+    height: 25vh;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item2-home{
+    /* margin-left: 40%; */
+    height: 35vh;
+    text-align: center;
+
+}
+
+.img2-home{
+    width: 40%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.item3-home{
+    width: 100%;
+    height: 10vh;
+    margin-left: 5%;
+}
+
+.btn-home{
+    width: 20%;
+    height: 55%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.module3-home{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    padding: 5%;
+}
+
+.service-div1{
+    width: 80%;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    
+}

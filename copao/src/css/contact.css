@@ -1,0 +1,117 @@
+.main-contact{
+    width: 100%;
+    height: max-content;
+}
+
+.container1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    
+}
+
+.contact-us{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    
+}
+
+.contact2{
+    width: 40%;
+    height: 100%;
+}
+
+.add-contact{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    flex-direction: column;
+}
+
+.container3{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.container4{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.div4-contact{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div5-contact{
+    width: 40%;
+    height: 50vh;
+    background-color: darkgrey;
+    
+
+}
+
+.div6-contact{
+    color: aliceblue;
+    margin-left: 5%;
+}
+
+.container5{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+   
+}
+
+.map-div{
+    width: 50%;
+    height: 100%;
+}
+
+.visit-div{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container6{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    background-color: black;
+}
+
+.div11-contact{
+    color: aliceblue;
+    width: 33%;
+    height: 90%;
+    border-left: 0.5px solid rgba(255, 255, 255, 0.574);
+    text-align: center;
+}
