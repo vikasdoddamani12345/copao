@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import '../../css/Services.css'
+import React, { useEffect } from 'react'
+import '../../css/service.css'
 import Pic1 from '../../images/app-dev-1024x683.jpg'
 import Pic2 from '../../images/ui-ux-1024x683.jpg'
 import Pic3 from '../../images/8068473_63484-1-292x300.jpg'
@@ -14,30 +14,9 @@ import 'aos/dist/aos.css'
 
 
 function Services() {
-    const [isVisible,setIsVisible] = useState(false)
     const gotobtn = () => {
         window.scrollTo({ top:0, left:0, behavior:'smooth'});
     };
-    const listenToScroll = () => {
-            
-
-
-        let heightToHidden = 250;
-        const winScroll =  document.body.scrollTop || document.documentElement.scrollTop
-
-        if(winScroll > heightToHidden){
-            setIsVisible(true);
-        }else{
-            setIsVisible(false);
-        }
-    };
-
-    useEffect(() => {
-        window.addEventListener("scroll", listenToScroll);
-        return () => window.removeEventListener("scroll", listenToScroll)
-    },[]);
-
-
 
     useEffect(() => {
         Aos.init({duration:1500,delay: 100,});
@@ -48,7 +27,7 @@ function Services() {
 <div className='service-container'>
    <div className='Service-1'>
     <h1>Our Services</h1>
-    <p data-aos="fade-up" className='discription-1'>Range of strategies and tactics designed to help online businesses promote their products or services, reach a broader audience, and increase sales, Here's a we provide platform  overview of common digital marketing services for e-commerce</p>
+    <p data-aos="fade-up" className='discription-1'>Range of strategies and tactics designed to help online businesses promote their products or services, reach a broader audience, and increase sales, Here's a we provide platform  overview of common digital marketing services for e-commerce.</p>
    </div>
    <div className='Service-2'>
     <div data-aos="fade-right" className='Item-1'>
@@ -137,10 +116,8 @@ function Services() {
         <h3>A Title to Turn the Visitor Into a Lead</h3>
         <button data-aos="fade-up" type='submit'className='Contact-btn-1'>Contact Us</button>
         <div className='Scroll-top'>
-        <p className='Item-text'>This is your chance to emphasize why the visitor should contact you right now.</p> 
-        {isVisible &&(
+        <p className='Item-text'>This is your chance to emphasize why the visitor should contact you right now.</p>
         <IoIosArrowUp size={44} className='top-icon-2' onClick={gotobtn}/>
-        )}
         </div>
     </div>
    </div>
