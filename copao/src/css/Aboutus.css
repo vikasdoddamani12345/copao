@@ -17,13 +17,13 @@
     font-family: Young Serif;
 }
 .About-title h1{
-    font-size: 56px;
+    font-size: 2.6vw;
     letter-spacing: 25px;
 
 }
 .sub-title
 {
-    font-size: 26px;
+    font-size: 1.3vw;
     line-height: 1.8;
 }
 .About-title-1{
@@ -33,20 +33,20 @@
 .Heading-1{
     font-family: Pacifico;
     text-align: center;
-    font-size: 50px;
+    font-size: 3vw;
     letter-spacing: 25px;
 
 }
 .Heading-2{
-    font-size: 46px;
+    font-size: 3.2vw;
     padding-top: 90px;
-    width: 100%;
+    width: 40vw;
     padding-left: 250px;
 }
 .Heading-3{
-    font-size: 32px;
+    font-size: 1.8vw;
     padding-left: 250px;
-    width: 100%;
+    width: 50vw;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -99,17 +99,17 @@
     .About-title-1{
         height: 100vh;
     }
+    .About-title h1{
+        font-size: 5.3vw;
+    }
     .Heading-2{
         font-size: 50px;
-        width: 450px;
-        margin: 0;
-        padding: 0;
+        width: 100vw;
         padding-left: 30px;
     }
     .Heading-3{
-        margin: 0;
-        padding: 0;
-        width: 450px;
+        width:70vw;
+        font-size: 3.8vw;
         padding-left: 30px;
     }
     .contact-btn-grp{
@@ -126,10 +126,8 @@
     }
     .Btm-line{
         padding: 0;
-        padding-top: 80px;
     }
     .top-icon{
-        margin: 0;
         margin-top: 150px;
         margin-left: 40px;
     } 
@@ -139,30 +137,32 @@
 /* Responsive for Desktop */
 @media screen and (max-width:1024px) and (min-width:800px) {
     .About-container{
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
     }
+
     .Heading-2{
         padding-left: 160px;
-        width: 100%;
+        width: 80vw;
+        font-size: 5.6vw;
     }
     .Heading-3{
         padding-left: 160px;
-        width: 100%;
+        width: 50vw;
+        font-size: 3.6vw;
     }
     .contact-btn-grp{
         padding-left: 180px;
         width: 100%;
     }
     .Btm-line{
-        width: 100%;
-        margin: 0;
-        padding: 0;
+        width: 100vw;
         display: flex;
         align-items: center;
-        justify-content: center;
-        margin-top: 150px;
-        padding-left: 350px;
+        justify-content:space-around;
+        height: 50vh;
+        padding: 0;
+        padding-top: 35vh;
     }
     .Heading-4{
         margin: 0;
@@ -171,17 +171,6 @@
     .top-icon{
         padding: 0;
         margin: 0;
-        margin-left: 350px;
     }
 }
 
-/* Responsive for Tab */
-@media screen and (max-width:700px)and (min-width:650px)  {
-    .About-container{
-        width: 100%;
-    }
-    .Heading-2{
-        padding-left: 110px;
-    }
-    
-}

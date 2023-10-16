@@ -19,7 +19,7 @@
 }
 .discription-1{
     font-size: 36px;
-    width: 1390px;
+    width :1390px ;
     padding-left: 600px;
     padding-top: 90px;
 }
@@ -27,7 +27,6 @@
     display: grid;
     grid-template-columns:repeat(2,1fr);
     grid-template-rows: repeat(550px,1fr);
-    
     margin-top: 100px;
     background-color: #000;
     color: #FFF;
@@ -39,20 +38,20 @@
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
     padding: 50px;
-    width: 950px;
+    width: 50vw;
 }
 .pic2{
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
     padding: 50px;
-    width: 950px;
-    height: 650px;
+    width: 50vw;
+    height: 80vh;
 }
 .pic3{
     border-top-left-radius: 150px;
     border-bottom-Right-radius: 150px;
     padding: 50px;
-    width: 950px;
+    width: 50vw;
 }
 .text-grp{
     padding-top: 80px;
@@ -160,49 +159,52 @@
     cursor: pointer;
     margin-left: 400px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) and (min-width:300px) {
     .Service-2{
         display: grid;
         grid-template-columns: 550px;
+        margin: 0;
+        padding: 0;
+
     }
     .Service-1 h1{
-        width: 750px;
+        width: 100vw;
         font-size:86px;
-        margin-left: -90px;
+        margin: 0;
+        padding: 0;
     }
     .discription-1{
-        margin: 0;
-        margin-top: 80px;
-        margin-left: 50px;
         padding: 0px;
-        width: 450px;
-        font-size: 24px;
+        margin: 0;
+        width: 100vw;
+        height: 40vh;
     }
     .Item-1{
-        width: 100%;
+        width: 100vw;
     }
     .pic1{
-        width: 100%;
+        width: 100vw;
     }
     .pic2{
-        width: 100%;
+        width: 100vw;
+        height: 80vw;
     }
     .pic3{
-        width: 100%;
+        width: 100vw;
     }
     .text-grp{
-        width: 100%;
+        width: 100vw;
     }
     .text-1{
-        width: 100%;
+        width: 100vw;
     }
     .text-2{
-        width: 100%;
+        width: 100vw;
         padding-left: 50px;
     }
     .learn-btn-1{
-        width: 100%;
-        margin-left: 10px;
+        width: 80vw;
+       margin-left: 50px;
     }
     .testinomial{
         width: 100%;
@@ -214,10 +216,17 @@
         padding: 20px;
     }
     .testinom-head{
-        width: 100%;
+        width: 100vw;
         margin: 0;
         padding: 0;
         font-size: 35px;
+        text-align: center;
+    }
+    .testinom-head h1{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+
     }
     .Review{
         width: 100%;
@@ -253,21 +262,39 @@
 @media screen and (max-width:1024px) and (min-width:800px) {
     .discription-1{
         padding: 40px;
-        width: 100%;
+        width: 100vw;
         text-align: left;
+    }
+    .Item-1{
+        width: 100vw;
     }
     .Service-2{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto  ;
+    }
+
+    .testinom-head{
+        text-align: center;
+        padding: 0;
     }
     .testinomial{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 110vh;
         align-items: center;
         justify-content: center;
         padding-top: 30px;
+    }
+    .pic1{
+        width: 100vw;
+    }
+    .pic2{
+        width: 100vw;
+        height: 80vw;
+    }
+    .pic3{
+        width: 100vw;
     }
     .Review{
         width: 100%;
@@ -288,5 +315,8 @@
     }
     .top-icon-2{
         margin: 0;
+    }
+    .text-grp{
+        width: 100vw;
     }
 }
