@@ -39,9 +39,11 @@ function PrevArrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
+      data-aos="fade-right"
         className={className}
-        style={{ ...style, display: "block", background: "green" }}
+        style={{ ...style, display: "block", background: "green",position:"absolute",left:"200px" , bottom:"10%" }}
         onClick={onClick}
+        
       />
     );
   }
@@ -69,8 +71,8 @@ useEffect(() => {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 1,
+              slidesToScroll: 1,
               infinite: true,
               dots: true
             }
@@ -104,12 +106,15 @@ useEffect(() => {
         <Slider {...settings}>
           <div className="card1">
             <div className="card11">
-              <div> <h1>COPAO Find The Best Solution.</h1><br/>
-               <h2>Fresh Thinking For Business On The Move.</h2>
+              <div data-aos = "zoom-in"  className="txt-div1"> <h1 className="h1-div1"><b>COPAO Find The Best Solution.</b></h1><br/>
+               <h2 className="h2-div1">Fresh Thinking For Business On The Move.</h2>
                  </div>
-
-                <img className="img1-home" src={image1} alt="" />
+                 <div data-aos="fade-up" className='img'>
+                 <img  className="img1-home" src={image1} alt="" /> 
+                 </div>
+                 <div data-aos="fade-down" className='img'>
                 <img className="img1-home" src={image2} alt="" />
+                </div>
                 </div>
            </div> 
           
@@ -117,13 +122,15 @@ useEffect(() => {
 
           <div className="card1">
             <div className="card11">
-              <div> <h1>Inventive Insights For Unsurpassible Solutions.</h1><br/>
-               <h2>Your Advertising solutions in The Digital era.</h2>
+              <div data-aos = "zoom-in"  className="txt-div1"> <h1 className="h1-div11"><b>Inventive Insights For Unsurpassible Solutions.</b></h1><br/>
+               <h2 className="h2-div11">Your Advertising solutions in The Digital era.</h2>
                  </div>
-               
+                 <div data-aos="fade-down" className='img'>
                 <img className="img1-home" src={image3} alt="" />
+                </div>
+                <div data-aos="fade-down" className='img'>
                 <img className="img1-home" src={image4} alt="" />
-
+                </div>
             </div>
           </div>
 
@@ -131,12 +138,17 @@ useEffect(() => {
          
           <div className="card1">
             <div className="card11">
-              <div> <h1>Ignite,Inovate,Implement.</h1><br/>
-               <h2>Set the Pace and Dominate the space.</h2>
+              <div  data-aos = "zoom-in" className="txt-div1"> <h1 className="h1-div1"><b>Ignite,Inovate,Implement.</b></h1><br/>
+               <h2  className="h2-div1">Set the Pace and Dominate the space.</h2>
                  </div>
                
+                 <div data-aos="fade-down" className='img'>
                 <img className="img1-home" src={image5} alt="" />
+                </div>
+
+                <div data-aos="fade-down" className='img'>
                 <img className="img1-home" src={image6} alt="" />
+                </div>
 
             </div>
           </div>
@@ -169,62 +181,82 @@ useEffect(() => {
           
           </div>
 
-          <div className='Service-2'>
-    <div data-aos="fade-right" className='Item-1'>
-        <img className='pic1' src={Pic1} alt='app-dev-1024x683.jpg'/>
+          <div className='Service-22'>
+            <div className="item-31">
+    <div data-aos="fade-right" className='Item-12'>
+        <img className='pic11' src={Pic1} alt='app-dev-1024x683.jpg'/>
         </div>
-        <div className='text-grp'>
-        <p data-aos="fade-left" className='text-1'>Android and IOS app <br/> development</p>
-        <p data-aos="fade-up" className='text-2'>Get the first-rate android and IOS app development services. <br/>We help you transform your business idea into a reality.</p>
-        <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
+        <div className='text-grp1'>
+        <p data-aos="fade-left" className='text-11'>Android and IOS app <br/> development</p>
+        <p data-aos="fade-up" className='text-22'>Get the first-rate android and IOS app development services. <br/>We help you transform your business idea into a reality.</p>
+        <button data-aos="fade-up" type='submit'className='learn-btn-11'>Learn More</button>
         </div>
-        <div className='text-grp'>
-        <p data-aos="fade-right" className='text-1'>UI & UX Design</p>
-        <p data-aos="fade-up" className='text-2'>We help you with the UI and UX designing services. UI and UX are actually two different professions.</p>
-        <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
         </div>
-        <div data-aos="fade-left" className='Item-1'>
-        <img className='pic3' src={Pic2} alt='ui-ux-1024x683.jpg'/>
+
+        <div className="item-31">
+        <div className='text-grp1'>
+        <p data-aos="fade-right" className='text-11'>UI & UX Design</p>
+        <p data-aos="fade-up" className='text-22'>We help you with the UI and UX designing services. UI and UX are actually two different professions.</p>
+        <button data-aos="fade-up" type='submit'className='learn-btn-11'>Learn More</button>
         </div>
-        <div data-aos="fade-right" className='Item-1'>
-        <img className='pic2' src={Pic3} alt='8068473_63484-1-292x300.jpg'/>
+        <div data-aos="fade-left" className='Item-12'>
+        <img className='pic11' src={Pic2} alt='ui-ux-1024x683.jpg'/>
         </div>
-        <div className='text-grp'>
-        <p data-aos="fade-left" className='text-1'>Graphical Design</p>
-        <p data-aos="fade-up" className='text-2'>Get the incomparable graphical design by us. Our graphic designers help you to promote, advertise your products.</p>
-        <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
         </div>
-        <div className='text-grp'>
-        <p data-aos="fade-right" className='text-1'>WordPress Websites</p>
-        <p data-aos="fade-up" className='text-2'>Here we have the WordPress developers who are experts in WordPress developing. WordPress is a free, open-source website creation platform.</p>
-        <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
+
+        <div className="item-31">
+        <div data-aos="fade-right" className='Item-12'>
+        <img className='pic21' src={Pic3} alt='8068473_63484-1-292x300.jpg'/>
         </div>
-        <div data-aos="fade-left" className='Item-1'>
-        <img className='pic3' src={Pic4} alt='1_uDJTLivemR18proTkBsMEQ.jpg'/>
+        <div className='text-grp1'>
+        <p data-aos="fade-left" className='text-11'>Graphical Design</p>
+        <p data-aos="fade-up" className='text-22'>Get the incomparable graphical design by us. Our graphic designers help you to promote, advertise your products.</p>
+        <button data-aos="fade-up" type='submit'className='learn-btn-11'>Learn More</button>
         </div>
-        <div data-aos="fade-right" className='Item-1'>
-        <img className='pic1' src={Pic5} alt='digital-marketing-with-icons-business-people-300x234.jpg'/>
         </div>
-        <div className='text-grp'>
-        <p data-aos="fade-left" className='text-1'>Digital Marketing</p>
-        <p data-aos="fade-up" className='text-2'>Stay connected with your customers, promote sales and activities. We are here to help promote your sales. </p>
-        <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
+
+        <div className="item-31">
+        <div className='text-grp1'>
+        <p data-aos="fade-right" className='text-11'>WordPress Websites</p>
+        <p data-aos="fade-up" className='text-22'>Here we have the WordPress developers who are experts in WordPress developing. WordPress is a free, open-source website creation platform.</p>
+        <button data-aos="fade-up" type='submit'className='learn-btn-11'>Learn More</button>
         </div>
-        <div className='text-grp'>
-        <p data-aos="fade-right" className='text-1'>Social Media Managing</p>
-        <p data-aos="fade-up" className='text-2'>Looking for a social media manager? Relax…. We have an excellent team of social media managers. They help you to grow your business through social media. </p>
-        <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
+        <div data-aos="fade-left" className='Item-12'>
+        <img className='pic31' src={Pic4} alt='1_uDJTLivemR18proTkBsMEQ.jpg'/>
         </div>
-        <div data-aos="fade-left" className='Item-1'>
-        <img className='pic3' src={Pic6} alt='soci-2-1024x792.jpg'/>
         </div>
-        <div data-aos="fade-right" className='Item-1'>
-        <img className='pic1' src={Pic7} alt='html-system-website-concept-1024x683.jpg'/>
+
+        <div className="item-31">
+        <div data-aos="fade-right" className='Item-12'>
+        <img className='pic11' src={Pic5} alt='digital-marketing-with-icons-business-people-300x234.jpg'/>
         </div>
-        <div className='text-grp'>
-        <p data-aos="fade-left" className='text-1'>Web Application</p>
-        <p data-aos="fade-up" className='text-2'>Get the best web application services here….  Our web developers are experts in designing, developing and maintaining the web applications.</p>
-        <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
+        <div className='text-grp1'>
+        <p data-aos="fade-left" className='text-11'>Digital Marketing</p>
+        <p data-aos="fade-up" className='text-22'>Stay connected with your customers, promote sales and activities. We are here to help promote your sales. </p>
+        <button data-aos="fade-up" type='submit'className='learn-btn-11'>Learn More</button>
+        </div>
+        </div>
+
+        <div className="item-31">
+        <div className='text-grp1'>
+        <p data-aos="fade-right" className='text-11'>Social Media Managing</p>
+        <p data-aos="fade-up" className='text-22'>Looking for a social media manager? Relax…. We have an excellent team of social media managers. They help you to grow your business through social media. </p>
+        <button data-aos="fade-up" type='submit'className='learn-btn-11'>Learn More</button>
+        </div>
+        <div data-aos="fade-left" className='Item-12'>
+        <img className='pic11' src={Pic6} alt='soci-2-1024x792.jpg'/>
+        </div>
+        </div>
+
+        <div className="item-31">
+        <div data-aos="fade-right" className='Item-12'>
+        <img className='pic11' src={Pic7} alt='html-system-website-concept-1024x683.jpg'/>
+        </div>
+        <div className='text-grp1'>
+        <p data-aos="fade-left" className='text-11'>Web Application</p>
+        <p data-aos="fade-up" className='text-22'>Get the best web application services here….  Our web developers are experts in designing, developing and maintaining the web applications.</p>
+        <button data-aos="fade-up" type='submit'className='learn-btn-11'>Learn More</button>
+        </div>
         </div>
     </div>
 
@@ -246,7 +278,7 @@ useEffect(() => {
               You could share your company’s story and details about why you are in business.
                The goal is to create a connection with the visitor and give them confidence to work with you.
               </p>
-              <button data-aos="fade-up" type='submit'className='learn-btn-1'>Learn More</button>
+              <button data-aos="fade-up" type='submit'className='learn-btn-11'>Learn More</button>
           </div>
 
       </div>
