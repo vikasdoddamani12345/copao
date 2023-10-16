@@ -92,6 +92,7 @@
     width: 40%;
     height: 50vh;
     background-color: darkgrey;
+    padding: 20px;
     
 
 }
@@ -126,7 +127,7 @@
     height: 20vh;
     display: flex;
     background-color: black;
-    padding: 10px;
+    
 }
 
 .div11-contact{
@@ -135,4 +136,5 @@
     height: 90%;
     border-left: 0.5px solid rgba(255, 255, 255, 0.574);
     text-align: center;
+    padding: 15px;
 }
