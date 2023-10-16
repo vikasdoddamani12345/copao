@@ -1,5 +1,8 @@
 import './App.css';
 import Navbar from './components/Navigationbar';
+import Home from './pages/Nikita/Home';
+import Contact from './pages/Nikita/Contact';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
@@ -20,6 +23,9 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
+
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/contact' element={<Contact />} />
 
 
           <Route exact path='/Aboutus' element={<Abouut />} />
