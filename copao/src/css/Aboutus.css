@@ -1,56 +1,62 @@
-
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.About-title{
+.About-title {
     background-color: black;
     color: #FFFF;
-    margin: auto;   
+    margin: auto;
     text-align: center;
     padding: 25px;
     letter-spacing: 5px;
     font-family: Young Serif;
 }
-.About-title h1{
+
+.About-title h1 {
     font-size: 2.6vw;
     letter-spacing: 25px;
 
 }
-.sub-title
-{
+
+.sub-title {
     font-size: 1.3vw;
     line-height: 1.8;
 }
-.About-title-1{
+
+.About-title-1 {
     background-color: black;
     color: #FFFF;
 }
-.Heading-1{
+
+.Heading-1 {
     font-family: Pacifico;
     text-align: center;
     font-size: 3.5vw;
     letter-spacing: 1.3vw;
 
 }
-.Heading-2{
+
+.Heading-2 {
     font-size: 5.2vw;
     padding-top: 15vh;
     width: 60vw;
     padding-left: 15vw;
 }
-.Heading-3{
+
+.Heading-3 {
     font-size: 1.8vw;
     padding-left: 15vw;
     width: 40vw;
     padding-top: 5vh;
 }
-.contact-btn{
+
+.contact-btn {
     background-color: #FFFF;
-    color:rgb(32, 31, 31) ;
+    color: rgb(32, 31, 31);
     font-size: 2.3vw;
     width: 20vw;
     height: 8vh;
@@ -58,117 +64,132 @@
     border-radius: 40px;
     cursor: pointer;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     background-color: #92def1;
 
 }
-.contact-btn-grp{
+
+.contact-btn-grp {
     padding-left: 15vw;
     padding-top: 5vh;
 }
-.Heading-4{
+
+.Heading-4 {
     text-align: center;
     margin-top: 20vh;
     font-size: 3.2vw;
     padding-left: 30vw;
 }
-.Btm-line{
+
+.Btm-line {
     display: flex;
     width: 90vw;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     margin-left: 4vw;
 }
-.top-icon{
+
+.top-icon {
     background-color: #FFFF;
     color: black;
     border-radius: 25px;
     cursor: pointer;
     margin-top: 15vh;
     margin-left: 25vw;
-    
+
 }
 
 
 /* Responsive for Mobile */
 @media screen and (max-width:600px) {
-    .About-title-1{
+    .About-title-1 {
         height: 100vh;
     }
-    .About-title h1{
+
+    .About-title h1 {
         font-size: 5.3vw;
     }
-    .Heading-2{
+
+    .Heading-2 {
         font-size: 50px;
         width: 100vw;
         padding-left: 30px;
     }
-    .Heading-3{
-        width:70vw;
+
+    .Heading-3 {
+        width: 70vw;
         font-size: 3.8vw;
         padding-left: 30px;
     }
-    .contact-btn-grp{
+
+    .contact-btn-grp {
         width: 50%;
         margin: 0;
         padding: 0;
         margin-left: 30px;
     }
-    .Heading-4{
+
+    .Heading-4 {
         font-size: 86px;
     }
-    .Heading-1{
+
+    .Heading-1 {
         font-size: 76px;
     }
-    .Btm-line{
+
+    .Btm-line {
         padding: 0;
     }
-    .top-icon{
+
+    .top-icon {
         margin-top: 150px;
         margin-left: 40px;
-    } 
+    }
 }
 
 
 /* Responsive for Desktop */
 @media screen and (max-width:1024px) and (min-width:800px) {
-    .About-container{
+    .About-container {
         width: 100vw;
         height: 100vh;
     }
 
-    .Heading-2{
+    .Heading-2 {
         padding-left: 160px;
         width: 80vw;
         font-size: 5.6vw;
     }
-    .Heading-3{
+
+    .Heading-3 {
         padding-left: 160px;
         width: 50vw;
         font-size: 3.6vw;
     }
-    .contact-btn-grp{
+
+    .contact-btn-grp {
         padding-left: 180px;
         width: 100%;
     }
-    .Btm-line{
+
+    .Btm-line {
         width: 100vw;
         display: flex;
         align-items: center;
-        justify-content:space-around;
+        justify-content: space-around;
         height: 50vh;
         padding: 0;
         padding-top: 35vh;
     }
-    .Heading-4{
+
+    .Heading-4 {
         margin: 0;
-      
+
     }
-    .top-icon{
+
+    .top-icon {
         padding: 0;
         margin: 0;
     }
 }
-
-
-

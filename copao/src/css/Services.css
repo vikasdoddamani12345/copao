@@ -1,80 +1,93 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.service-container{
+
+.service-container {
     overflow: hidden;
 }
-.Service-1{
+
+.Service-1 {
     background-color: #000;
     color: #FFf;
     height: 700px;
     margin-top: 5vh;
     text-align: center;
 }
-.Service-1 h1{
+
+.Service-1 h1 {
     padding-top: 15vh;
     font-size: 6.5vw;
 }
-.discription-1{
+
+.discription-1 {
     font-size: 2.3vw;
-    width :80vw ;
+    width: 80vw;
     padding-left: 20vw;
     padding-top: 8vh;
-    text-align:justify;
+    text-align: justify;
 }
-.Service-2{
+
+.Service-2 {
     display: grid;
-    grid-template-columns:repeat(2,1fr);
-    grid-template-rows: repeat(5vw,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5vw, 1fr);
     margin-top: 15vh;
     background-color: #000;
     color: #FFF;
     width: 100vw;
 }
-.Item-1{
-    width:50vw;
+
+.Item-1 {
+    width: 50vw;
 }
-.pic1{
+
+.pic1 {
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
     padding: 50px;
     width: 50vw;
 }
-.pic2{
+
+.pic2 {
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
     padding: 50px;
     width: 50vw;
     height: 80vh;
 }
-.pic3{
+
+.pic3 {
     border-top-left-radius: 150px;
     border-bottom-Right-radius: 150px;
     padding: 50px;
     width: 50vw;
 }
-.text-grp{
+
+.text-grp {
     padding-top: 50px;
     width: 50vw;
     text-align: center;
 }
-.text-1{
+
+.text-1 {
     font-size: 4.3vw;
     text-align: center;
 }
-.text-2{
+
+.text-2 {
     font-size: 1.8vw;
     width: 45vw;
-    padding-left:4vw;
+    padding-left: 4vw;
     padding-top: 1vh;
 
-    
+
 }
-.learn-btn-1{
+
+.learn-btn-1 {
     background-color: #FFFF;
-    color:rgb(32, 31, 31) ;
+    color: rgb(32, 31, 31);
     font-size: 1.8vw;
     text-align: center;
     border-radius: 40px;
@@ -84,58 +97,66 @@
     margin-top: 5vh;
     margin-left: 2vw;
 }
-.learn-btn-1:hover{
+
+.learn-btn-1:hover {
     background-color: #92def1;
 
 }
-.testinomial{
+
+.testinomial {
     display: flex;
     gap: 50px;
     background-color: #000;
     color: #FFF;
     height: 55vh;
 }
-.testinom-head{
+
+.testinom-head {
     width: 30vw;
     background-color: #fff;
     border-radius: 90px;
-    color:rgb(108, 108, 221) ;
+    color: rgb(108, 108, 221);
     font-size: 2.2vw;
     height: 50vh;
-    text-align: center; 
+    text-align: center;
     padding-top: 10vh;
     margin-left: 50px;
     margin-bottom: 30px;
 }
 
-.testonimal-1{
+.testonimal-1 {
     font-size: 1.8vw;
     text-align: justify;
     padding: 1vw;
 }
-.client{
+
+.client {
     display: flex;
     gap: 5vw;
-    
+
 }
-.client h3{
+
+.client h3 {
     font-size: 2.6vw;
     padding-top: 1.5vh;
 }
-.Item-2{
+
+.Item-2 {
     background-color: #000;
     color: #FFF;
     text-align: center;
 }
-.Item-2  h3{
+
+.Item-2 h3 {
     font-size: 4.6vw;
-    width: 50vw; 
+    width: 50vw;
     padding-top: 10vh;
     margin-left: 25vw;
 }
-.Contact-btn-1{
+
+.Contact-btn-1 {
     background-color: #FFFF;
-    color:rgb(32, 31, 31) ;
+    color: rgb(32, 31, 31);
     font-size: 1.5vw;
     width: 16vw;
     height: 8vh;
@@ -144,78 +165,99 @@
     cursor: pointer;
     margin-top: 4vh;
 }
-.Contact-btn-1:hover{
+
+.Contact-btn-1:hover {
     background-color: #92def1;
 
 }
-.Item-text{
+
+.Item-text {
     font-size: 1.3vw;
     margin-left: 30vw;
     width: 35vw;
 }
-.Scroll-top{
+
+.Scroll-top {
     display: flex;
     width: 100vw;
     margin-top: 5vh;
 }
+
 .top-icon-2 {
     background-color: #FFFF;
     color: black;
     border-radius: 25px;
     cursor: pointer;
     margin-left: 30vw;
+
 }
+
 @media screen and (max-width:600px) {
-    .Service-2{
+    .Service-2 {
         display: grid;
         grid-template-columns: 550px;
         margin: 0;
         padding: 0;
 
     }
-    .Service-1 h1{
+
+    .Service-1 h1 {
         width: 100vw;
-        font-size:86px;
+        font-size: 86px;
         margin: 0;
         padding: 0;
         padding-top: 10vh;
     }
-    .discription-1{
-        padding: 0px;
+
+    .discription-1 {
+        padding: 10vw 10vh;
         margin: 0;
         width: 100vw;
         height: 40vh;
         padding-top: 10vh;
 
     }
-    .Item-1{
+
+    .Item-1 {
         width: 100vw;
     }
-    .pic1{
+
+    .pic1 {
         width: 100vw;
     }
-    .pic2{
+
+    .pic2 {
         width: 100vw;
         height: 80vw;
     }
-    .pic3{
+
+    .pic3 {
         width: 100vw;
     }
-    .text-grp{
+
+    .text-grp {
         width: 100vw;
     }
-    .text-1{
+
+    .text-1 {
         width: 100vw;
+        font-size: 5.6vw;
     }
-    .text-2{
-        width: 100vw;
-        padding-left: 50px;
-    }
-    .learn-btn-1{
+
+    .text-2 {
         width: 80vw;
-       margin-left: 50px;
+        padding-left: 90px;
+        font-size: 2.6vw;
     }
-    .testinomial{
+
+    .learn-btn-1 {
+        width: 50vw;
+        font-size: 5.6vw;
+        height: 5vh;
+     
+    }
+
+    .testinomial {
         width: 100%;
         margin: 0;
         padding: 0;
@@ -224,69 +266,82 @@
         height: 85vh;
         padding: 20px;
     }
-    .testinom-head{
+
+    .testinom-head {
         width: 100vw;
         margin: 0;
         padding: 0;
         font-size: 35px;
         text-align: center;
     }
-    .testinom-head h1{
+
+    .testinom-head h1 {
         width: 100vw;
         margin: 0;
         padding: 0;
 
     }
-    .Review{
+
+    .Review {
         width: 100%;
     }
-    .testonimal-1{
+
+    .testonimal-1 {
         width: 100%;
         font-size: 25px;
     }
-    .Item-2{
+
+    .Item-2 {
         width: 100%;
         padding-top: 100px;
     }
-    .Item-2 h3{
+
+    .Item-2 h3 {
         font-size: 50px;
         width: 100%;
         padding: 0;
         margin: 0;
     }
-    .Scroll-top{
+
+    .Scroll-top {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-    .Item-text{
+
+    .Item-text {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-    .top-icon-2{
+
+    .top-icon-2 {
         margin: 0;
-    }  
+    }
 }
+
 @media screen and (max-width:1024px) and (min-width:800px) {
-    .discription-1{
+    .discription-1 {
         padding: 40px;
         width: 100vw;
         text-align: left;
     }
-    .Item-1{
+
+    .Item-1 {
         width: 100vw;
     }
-    .Service-2{
+
+    .Service-2 {
         display: grid;
-        grid-template-columns: auto  ;
+        grid-template-columns: auto;
     }
 
-    .testinom-head{
+    .testinom-head {
         text-align: center;
         padding: 0;
     }
-    .testinomial{
+
+    .testinomial {
         display: flex;
         flex-direction: column;
         width: 100vw;
@@ -295,37 +350,46 @@
         justify-content: center;
         padding-top: 30px;
     }
-    .pic1{
+
+    .pic1 {
         width: 100vw;
     }
-    .pic2{
+
+    .pic2 {
         width: 100vw;
         height: 80vw;
     }
-    .pic3{
+
+    .pic3 {
         width: 100vw;
     }
-    .Review{
+
+    .Review {
         width: 100%;
         padding: 50px;
     }
-    .Item-2 h3{
+
+    .Item-2 h3 {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-    .Scroll-top{
+
+    .Scroll-top {
         width: 100%;
         padding-top: 35px;
     }
-    .Item-text{
+
+    .Item-text {
         margin: 0;
-        padding: 0;    
+        padding: 0;
     }
-    .top-icon-2{
+
+    .top-icon-2 {
         margin: 0;
     }
-    .text-grp{
+
+    .text-grp {
         width: 100vw;
     }
 }
