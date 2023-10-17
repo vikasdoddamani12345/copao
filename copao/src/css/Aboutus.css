@@ -68,23 +68,24 @@
 }
 .Heading-4{
     text-align: center;
-    margin-top: 160px;
+    margin-top: 20vh;
     font-size: 3.2vw;
+    padding-left: 30vw;
 }
 .Btm-line{
     display: flex;
-    gap: 15vw;
-    width: 100vw;
-    justify-content: center;
+    width: 90vw;
+    justify-content:space-evenly;
     align-items: center;
-    margin-left: 18vw;
+    margin-left: 4vw;
 }
 .top-icon{
     background-color: #FFFF;
     color: black;
     border-radius: 25px;
     cursor: pointer;
-    margin-top: 25vh;
+    margin-top: 15vh;
+    margin-left: 25vw;
     
 }
 
