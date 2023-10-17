@@ -117,7 +117,7 @@ function Services() {
         <button data-aos="fade-up" type='submit'className='Contact-btn-1'>Contact Us</button>
         <div className='Scroll-top'>
         <p className='Item-text'>This is your chance to emphasize why the visitor should contact you right now.</p>
-        <IoIosArrowUp size={44} className='top-icon-2' onClick={gotobtn}/>
+        <IoIosArrowUp size={35} className='top-icon-2' onClick={gotobtn}/>
         </div>
     </div>
    </div>

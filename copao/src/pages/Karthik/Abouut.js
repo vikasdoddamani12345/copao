@@ -26,7 +26,7 @@ const Abouut = () => {
           <br/>   <br/>  <br/>
           <hr/>   <br/>
           <p className='Heading-1' data-aos="fade-up-left">Why Choose Us</p>
-          <p className='Heading-2' data-aos="fade-up-rigt">A Title To Turn The Visitor Into A Lead</p>
+          <h1 className='Heading-2' data-aos="fade-up-rigt">A Title To Turn The Visitor Into A Lead</h1>
           <p className='Heading-3'data-aos="fade-up-right">This is your chance to emphasize why the visitor should contact you right now.</p>
           <div className='contact-btn-grp'>
             <button data-aos="fade-right" type='submit' className='contact-btn'>Contact Us</button>
@@ -34,10 +34,9 @@ const Abouut = () => {
           <div className='Btm-line'>
             <p className='Heading-4'>Trusted By</p>
             <br/><br/><br/><br/>
-            <IoIosArrowUp size={44} className='top-icon' onClick={gotobtn} />
+            <IoIosArrowUp size={34} className='top-icon' onClick={gotobtn} />
           </div>
         </div>
-
       </div>
     </>
   )
