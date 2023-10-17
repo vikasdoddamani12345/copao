@@ -24,29 +24,29 @@ import { NavLink } from "react-router-dom";
 
 
 
-function PrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "red" }}
-        onClick={onClick}
-      />
-    );
-  }
+// function PrevArrow(props) {
+//     const { className, style, onClick } = props;
+//     return (
+//       <div
+//         className={className}
+//         style={{ ...style, display: "block", background: "red" }}
+//         onClick={onClick}
+//       />
+//     );
+//   }
   
-  function NextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-      data-aos="fade-right"
-        className={className}
-        style={{ ...style, display: "block", background: "green",position:"absolute",left:"200px" , bottom:"10%" }}
-        onClick={onClick}
+//   function NextArrow(props) {
+//     const { className, style, onClick } = props;
+//     return (
+//       <div
+//       data-aos="fade-right"
+//         className={className}
+//         style={{ ...style, display: "block", background: "green",position:"absolute",left:"200px" , bottom:"10%" }}
+//         onClick={onClick}
         
-      />
-    );
-  }
+//       />
+//     );
+//   }
 
 
 
@@ -63,8 +63,8 @@ useEffect(() => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        PrevArrow: <PrevArrow />,
-        nextArrow: <NextArrow />,
+        // PrevArrow: <PrevArrow />,
+        // nextArrow: <NextArrow />,
         
         initialSlide: 0,
         responsive: [
@@ -80,9 +80,9 @@ useEffect(() => {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1
             }
           },
           {
@@ -109,11 +109,13 @@ useEffect(() => {
               <div data-aos = "zoom-in"  className="txt-div1"> <h1 className="h1-div1"><b>COPAO Find The Best Solution.</b></h1><br/>
                <h2 className="h2-div1">Fresh Thinking For Business On The Move.</h2>
                  </div>
+                 <div className="card12">
                  <div data-aos="fade-up" className='img'>
                  <img  className="img1-home" src={image1} alt="" /> 
                  </div>
                  <div data-aos="fade-down" className='img'>
-                <img className="img1-home" src={image2} alt="" />
+                <img className="img1a-home" src={image2} alt="" />
+                </div>
                 </div>
                 </div>
            </div> 
@@ -125,11 +127,14 @@ useEffect(() => {
               <div data-aos = "zoom-in"  className="txt-div1"> <h1 className="h1-div11"><b>Inventive Insights For Unsurpassible Solutions.</b></h1><br/>
                <h2 className="h2-div11">Your Advertising solutions in The Digital era.</h2>
                  </div>
+
+                 <div className="card12">
                  <div data-aos="fade-down" className='img'>
                 <img className="img1-home" src={image3} alt="" />
                 </div>
                 <div data-aos="fade-down" className='img'>
-                <img className="img1-home" src={image4} alt="" />
+                <img className="img1a-home" src={image4} alt="" />
+                </div>
                 </div>
             </div>
           </div>
@@ -142,12 +147,14 @@ useEffect(() => {
                <h2  className="h2-div1">Set the Pace and Dominate the space.</h2>
                  </div>
                
+                 <div className="card12">
                  <div data-aos="fade-down" className='img'>
                 <img className="img1-home" src={image5} alt="" />
                 </div>
 
                 <div data-aos="fade-down" className='img'>
-                <img className="img1-home" src={image6} alt="" />
+                <img className="img1a-home" src={image6} alt="" />
+                </div>
                 </div>
 
             </div>

@@ -40,8 +40,8 @@ function Contact() {
 
         <div  className='container3'>
             <div className='div3-contact'>
-                <h1>GET IN TOUCH</h1>
-                <h3>Fill out the form below and we will contact you as soon as possible!</h3>
+                <h1 className='div3-contact'>GET IN TOUCH</h1>
+                <h3 className='div3-contact'>Fill out the form below and we will contact you as soon as possible!</h3>
             </div>
         </div>
 
